@@ -25,3 +25,13 @@ li:hover{
     color: red;
     transform: scale(1.1);
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: red;
+    transform: scale(1.1);
+}
