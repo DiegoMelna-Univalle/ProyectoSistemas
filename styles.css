@@ -28,7 +28,7 @@ li:hover{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover{
@@ -74,4 +74,8 @@ footer .footer-links li a:hover {
     border-radius: 10px;
     margin-bottom: 20px;
     transform: rotate(180deg);
+}
+
+.aHeader {
+    color: white;
 }
