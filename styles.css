@@ -28,7 +28,7 @@ li:hover{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover{
@@ -74,4 +74,46 @@ footer .footer-links li a:hover {
     border-radius: 10px;
     margin-bottom: 20px;
     transform: rotate(180deg);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    color: #fff;
+}
+
+.card:nth-child(1) {
+    background-color: #e74c3c;
+}
+
+.card:nth-child(2) {
+    background-color: #f1c40f;
+    color: #222;
+}
+
+.card:nth-child(3) {
+    background-color: #27ae60;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.95rem;
+}
+
+.aHeader {
+    color: white;
 }
