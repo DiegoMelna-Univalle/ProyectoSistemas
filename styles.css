@@ -28,7 +28,7 @@ li:hover{
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover{
@@ -99,4 +99,8 @@ footer .footer-links li a:hover {
 
 .card p {
     font-size: 0.95rem;
+}
+
+.aHeader {
+    color: white;
 }
