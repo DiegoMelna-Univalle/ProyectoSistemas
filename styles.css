@@ -68,3 +68,10 @@ footer .footer-links li a {
 footer .footer-links li a:hover {
     color: #ffcc00;
 }
+
+.main-image {
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transform: rotate(180deg);
+}
